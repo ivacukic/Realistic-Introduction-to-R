@@ -1,11 +1,14 @@
 ### PM SESSION ###
 
+rm(list=ls())
+setwd("~/Dropbox/R Course/") # Mac
+
 # read in new data
 newdata <- read.csv("pm_data.csv", header=TRUE)
 #have a look what's in this dataset, examine the variables
 
 # merge two data frames
-data <- read.csv("am_data.csv", header=TRUE) #read in morning dataset
+data <- read.csv("new_data.csv", header=TRUE) #read in morning dataset
 merged_data <- merge(data, newdata, by="id", all=TRUE)
 
 #oops, looks like an error message! can you tell what went wrong?

@@ -4,7 +4,7 @@
 
 # your own path to folder
 setwd("~/Dropbox/R Course/") # Mac
-setwd("C:/Users/Iva Cukic/Dropbox/R Course/") # Windows
+setwd("C:/Users/ivacukic/Dropbox/R Course") # Windows
 setwd("/Users/1033123/Dropbox/R Course/") # Managed Windows
 
 
